@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Foodie | The Food App</title>
+
+    <!-- Different css files for different sections (pages) -->
+    <link rel="stylesheet" href="assets/home-page.css">
+    <link rel="stylesheet" href="assets/favourite-meals.css">
+    <link rel="stylesheet" href="assets/meal-details.css">
+
+    <script src="https://kit.fontawesome.com/51eec70f98.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Gothic+A1:wght@500&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="background">   <!-- Binding nav-bar and search-section for same background -->
+
+        <!-- Nav-bar -->
+        <div id="nav" class="home-nav">
+            <h2 id="logo">foodie</h2>
+            <a id="homePageUrl" class="link">Home</a>
+            <a id="favouriteUrl" class="link">Favourites</a>
+        </div>
+            
+        <!-- Search-bar -->
+        <div id="search-container">
+            <div id="search">
+                <input type="text" placeholder="Search your Fav meal..">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div id="search-suggestion"></div>
+        </div>
+
+    </div>
+
+
+    <!-- Showing search results -->
+    <h1 id="result-head" class="hidden"></h1>
+    <div id="search-result" class="flex hidden"></div>
+
+
+
+    <!-- Container of all the category -->
+    <div id="category-container">
+        <h1>Categories</h1>
+        <div id="categories"></div>
+    </div>
+
+
+
+    <!-- Favpourite Meals Page -->
+    <div id="favourites-page" class="hidden favourites">
+        <h1 id="favourites-header">Favourite Meals</h1>
+        <div id="favourite-list"></div>
+    </div>
+
+
+
+    <!-- Single Meal Details Page -->
+    <div id="detail-container" class="hidden"></div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

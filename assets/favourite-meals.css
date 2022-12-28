@@ -1,0 +1,66 @@
+:root{
+    --primary-color: rgb(58, 196, 58);
+}
+
+/* Header of the Favourites Page */
+.favourites h1{
+    color: var(--primary-color);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 0.04em;
+    word-spacing: 0.1em;
+}
+
+/* Parent for each dish */
+.favourites>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Gothic A1', sans-serif;
+}
+.favourites>div>div{
+    width: 40vw;
+    margin: 3vh 0;
+    padding: 10px;
+    padding-bottom: 5px;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    position: relative;
+}
+.favourites>div>div div{
+    width: 20%;
+}
+.favourites>div img{
+    max-width: 100%;
+    border: 1px solid var(--primary-color);
+}
+.favourites>div>div div{
+    margin-right: 2vw;
+}
+.favourites>div>div span p:nth-child(1){
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+.favourites>div>div span p:nth-child(2){
+    margin: 1vh 0 1.5vh;
+}
+.favourites>div>div span p:nth-child(3){
+    margin: 0;
+}
+.favourites>div i{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    color: rgb(211, 21, 21);
+}
+
+.no-favourites{
+    padding-top: 28vh;
+    color: grey;
+    text-align: center;
+    font-size: 1.8em;
+}
+.no-favourites h1{
+    margin-bottom: 5px;
+}

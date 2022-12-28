@@ -1,0 +1,236 @@
+:root{
+    --primary-color: rgb(58, 196, 58);
+    --nav-green-color: rgb(50, 236, 50);
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+#background{
+    background-image: url('foodie.jpg');
+    background-size: cover;
+}
+
+
+/*** Nav-bar Section ***/
+
+#nav{
+    padding: 0.5vh 0 1.5vh;
+}
+
+/* Two seperate styles for Nav-bar */
+
+.home-nav{  /* <--- for home page */
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.9);
+}
+.nav-solid{ /* <-- for favourite and meal-detail pages */
+    background-color: rgb(26, 25, 25);
+    box-shadow: none;
+}
+
+
+#logo{
+    display: inline;
+    color: var(--nav-green-color);
+    margin: 0 3vw 0 2.5vw;
+    font-family: 'Lobster', 'cursive';
+    letter-spacing: 0.05rem;
+    font-size: 2em;
+}
+#nav a{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: default;
+    margin: 0 1.7vw 0;
+    font-size: 1.2em;
+}
+#nav a:hover{
+    transform: scale(1.2);
+    color: var(--nav-green-color);
+    text-decoration: underline;
+}
+
+
+/*** Search Section ***/
+
+#search-container{
+    height: 55vh;
+    position: relative;
+}
+#search{
+    text-align: center;
+    margin-top: 34vh;
+}
+#search input, button{
+    box-sizing: border-box;
+    height: 7vh;
+    margin-right: 7px;
+    border: 0;
+    border-radius: 6px;
+}
+#search input{
+    width: 22%;
+    padding-left: 10px;
+    border-top: 3px solid white;
+    font-size: 1.1em;
+}
+#search input::placeholder{
+    font-size: 0.9em;
+}
+#search input:focus{
+    outline: none;
+}
+#searchBtn{
+    background-color: rgb(15, 163, 15);
+    color: white;
+    font-size: 1.3em;
+    width: 8.2%;
+}
+#searchBtn:active{
+    outline: none;
+    transform: scale(0.95);
+}
+
+
+/* Search suggestion */
+
+#search-suggestion{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 21.9%;
+    margin-left: 34.2%;
+    margin-top: 4px;
+    border-radius: 6px;
+}
+#search-suggestion p{
+    margin: 0;
+    padding: 4px 10px;
+    color: gray;
+    border-top: 1px solid lightgray;
+    font-size: 1em;
+    font-family: 'Gothic A1', sans-serif;
+}
+#search-suggestion p:hover{
+    cursor: default;
+}
+#search-suggestion p:first-child{
+    border-top: 0;
+    padding-top: 8px;
+}
+
+
+/* Category section */
+
+#category-container{
+    padding: 5vh 8vw 5vh;
+    font-family: 'Gothic A1', sans-serif;
+}
+#category-container h1{
+    color: var(--primary-color);
+    margin-left: 3vw;
+}
+#categories{
+    padding: 30px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#categories div{
+    margin: 10px;
+    width: 15%;
+}
+#categories div img{
+    margin: auto;
+    max-width: 100%;
+}
+#categories div p{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+
+/* Searched dish */
+
+#result-head{   
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    margin: 0;
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-family: 'EB Garamond', serif;
+    font-size: 2.1em;
+    letter-spacing: 0.05em;
+    word-spacing: 0.06em;
+}
+#search-result{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#search-result > div{
+    max-width: 15vw;
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#search-result div div{
+    margin: auto;
+    width: 60%;
+}
+#search-result img{
+    max-width: 100%;
+    border: 1px solid var(--primary-color);
+}
+#search-result p{
+    margin: 2vh;
+    text-align: center;
+}
+#search-result div i{
+    position: absolute;
+    right: 20px;
+    top: 84%;
+    color: rgb(211, 21, 21);
+}
+.green small{
+    color: rgb(49, 169, 49);
+    text-align: center;
+}
+.red small{
+    color: red;
+    text-align: center;
+}
+.orangered small{
+    color: orangered;
+    text-align: center;
+}
+.orange small {
+    color: orange;
+    text-align: center;
+}
+
+
+/* General */
+
+.flex{
+    display: flex;
+}
+.hidden{
+    display: none;
+}
+.dishUrl{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5em;
+}
+.dishUrl:hover{
+    color: rgb(34, 203, 34);
+    text-decoration: underline;
+    cursor: default;
+}

@@ -1,0 +1,66 @@
+:root{
+    --primary-color: rgb(58, 196, 58);
+}
+
+
+/* Parent Container of Meal Details Page */
+
+#detail-container div{
+    width: 85vw;
+    margin: auto;
+}
+#detail-container div h1{
+    text-align: center;
+    text-decoration: underline;
+    color: var(--primary-color);
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
+}
+
+/* Container of Img and Description */
+.details{
+    display: flex;
+    padding: 1vw;
+    border: 1px solid var(--primary-color);
+    margin-top: 2vw;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.1em;
+}
+.details img{
+    max-width: 100%;
+    width: 15%;
+    margin-right: 4vw;
+}
+.details p{
+    font-size: 1.2em;
+}
+.details p a{
+    font-size: 0.8em;
+}
+.details p a:hover{
+    color: orangered;
+}
+#detail-container div i{
+    position: absolute;
+    top: 25vh;
+    left: 50vw;
+    color: rgb(211, 21, 21);
+    font-size: 1.2em;
+}
+
+/* Unordered List */
+#detail-container div h2{
+    margin-left: 1vw;
+    margin-top: 7vh;
+    color: var(--primary-color);
+}
+#detail-container ul{   
+    width: 85vw;
+    margin: auto;
+    list-style-type: circle;
+    font-family: 'Gothic A1', sans-serif;
+}
+#detail-container ul li{
+    margin: 2vh 0;
+}
