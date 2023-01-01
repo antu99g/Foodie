@@ -1,4 +1,4 @@
-# Food App
+# Foodie
 
 This is a frontend vanilla javascript project using an api named 'The Meal DB'. No JavaScript libraries are used. You can search for a dish and mark dishes as favourite. You can check all of your favourite dishes and see details of any dish.
 
