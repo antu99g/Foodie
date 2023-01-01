@@ -71,9 +71,9 @@ export function ckeckForVeg(category, div) {
   } else if (nonvegCategory.includes(category)) {
     div.className = "red";
   } else if (general.includes(category)) {
-    div.className = "orangered";
-  } else {
     div.className = "orange";
+  } else {
+    div.className = "golden";
   }
   return div;
 }
