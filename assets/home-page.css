@@ -207,12 +207,12 @@ body{
     color: red;
     text-align: center;
 }
-.orangered small{
-    color: orangered;
-    text-align: center;
-}
 .orange small {
     color: orange;
+    text-align: center;
+}
+.golden small{
+    color: gold;
     text-align: center;
 }
 
