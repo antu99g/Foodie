@@ -68,6 +68,11 @@ You can search for your favourite dishes and mark them as favourites. You can fi
 [The Meal DB](https://www.themealdb.com/api.php)
 
 
+## Hosted Link
+
+Visit site: [Foodie](https://antu99g.github.io/Foodie/)
+
+
 ## Screenshots
 
 <img src="https://user-images.githubusercontent.com/114740896/204853516-428e5e48-b524-4106-83a3-d4d2daf21656.png" width="300" height="200">&ensp;&ensp; <img src="https://user-images.githubusercontent.com/114740896/204853685-6b2ed389-bf08-4faa-8c41-b92a9a9839fe.png" width="300" height="200">
