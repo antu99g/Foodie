@@ -70,7 +70,7 @@ You can search for your favourite dishes and mark them as favourites. You can fi
 
 ## Hosted Link
 
-Visit site: [Food](https://antu99g.github.io/Foodie/)
+Visit site: [Foodie](https://antu99g.github.io/Foodie/)
 
 
 ## Screenshots
