@@ -75,6 +75,8 @@ Visit site: [Foodie](https://antu99g.github.io/Foodie/)
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/114740896/204853516-428e5e48-b524-4106-83a3-d4d2daf21656.png" width="300" height="200">&ensp;&ensp; <img src="https://user-images.githubusercontent.com/114740896/204853685-6b2ed389-bf08-4faa-8c41-b92a9a9839fe.png" width="300" height="200">
+<img src="https://user-images.githubusercontent.com/114740896/204853516-428e5e48-b524-4106-83a3-d4d2daf21656.png" width="380" height="200">&emsp;&emsp;
+<img src="https://user-images.githubusercontent.com/114740896/204853685-6b2ed389-bf08-4faa-8c41-b92a9a9839fe.png" width="380" height="200">
 
-<img src="https://user-images.githubusercontent.com/114740896/204853806-d67d93df-c367-4938-8315-89dd62fa1441.png" width="300" height="200">&ensp;&ensp; <img src="https://user-images.githubusercontent.com/114740896/204853949-92bfbb18-730c-4df2-8971-514d5c3d1cf5.png" width="300" height="200">
+<img src="https://user-images.githubusercontent.com/114740896/204853806-d67d93df-c367-4938-8315-89dd62fa1441.png" width="380" height="200">&emsp;&emsp;
+<img src="https://user-images.githubusercontent.com/114740896/204853949-92bfbb18-730c-4df2-8971-514d5c3d1cf5.png" width="380" height="200">
