@@ -122,7 +122,6 @@ async function fetchDish(dishName){
 
 // Function for adding searched dishes to DOM
 function addMealToDom(jsonMeal){
-
 	let div = document.createElement('div');
 	let divText = `
 		<div><img src="${jsonMeal.strMealThumb}"></div>
